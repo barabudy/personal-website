@@ -1,0 +1,103 @@
+﻿@media (min-width: 540px) {
+    .container {
+        max-width: 100%;
+    }
+
+    #myCarousel {
+        width: 15%;
+        height: 15%;
+        margin-left: 42.5%;
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 539px) {
+
+    #myCarousel {
+        width:35%;
+        height:30%;
+        margin-left:30%;
+    }
+
+    .row > div {
+        width:90%;
+        margin-left:5%;
+    }
+}
+
+.container {
+    padding-right:0;
+    padding-left:0;
+}
+
+/*Header*/
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav div ul li {
+    width:8em;
+}
+
+nav a p {
+    margin-bottom:0;
+}
+
+/*Body elements*/
+header + div {
+    border: 0.05em solid grey;
+    background-color: #c9e8fc;
+    margin-bottom:1em;
+    padding-top:1em;
+}
+
+h1 {
+    margin-top: 0.1em;
+    margin-bottom:0;
+    text-align: center;
+    font-family: Candara;
+}
+
+h2 {
+    display: block;
+    font-size: 1.6em;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+    font-family: Candara;
+}
+
+h3 {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 0.2em;
+    font-weight: bold;
+    font-family: Candara;
+}
+
+h6 {
+    text-align:center;
+}
+
+
+
+h2 ~ p {
+    text-align:justify;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+#myGoogleMap {
+    border: 0.3em solid black;
+    height:100%;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+}
