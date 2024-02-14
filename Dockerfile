@@ -1,6 +1,7 @@
 # Use official Apache image as a base
 FROM httpd:latest
 
+# Use host ssh keys to authenticate with GitHub private repo. Passed as arguments as a security best practice
 ARG ssh_prv_key
 ARG ssh_pub_key
 
