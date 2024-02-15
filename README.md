@@ -1,4 +1,4 @@
-# introduction website
+# Personal Introduction Website
 
 ## Description
 This personal project is an introductory website, meant as be presented to new friends and potential employers. I created this project to practice deploying an Apache server using a Docker container on a cloud VM. It was originally private but I made it public so my students could learn from it and be insipred to make their own version.
